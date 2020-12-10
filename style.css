@@ -1,0 +1,69 @@
+/* Add any CSS you need to this file. */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgray;
+}
+body {
+  background-color: darkgray;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: darkgray;
+}
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+input {
+  font-size: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  display: inline-block;
+  background-color: seashell;
+}
+.card img {
+  width: 50%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+  font-size: 30px;
+}
+
+a {
+  float: right;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
